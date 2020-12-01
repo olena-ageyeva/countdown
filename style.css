@@ -100,7 +100,7 @@ button {
 }
 
 button:hover {
-  filter: brightness(110%)
+  filter: brightness(110%);
 }
 
 /* Countdown */
@@ -109,6 +109,7 @@ ul {
 }
 
 li {
+  display: inline-block;
   font-size: 30px;
   list-style-type: none;
   padding: 10px;
@@ -125,6 +126,33 @@ li span {
 .complete {
   position: relative;
   top: 60px;
+}
+
+.complete-title {
+  animation: complete 4s infinite;
+}
+
+@keyframes complete {
+  0% {
+    color: rgb(245, 17, 17);
+  }
+
+  25% {
+    color: rgb(236, 223, 37);
+  }
+
+  50% {
+    color: rgb(17, 245, 104);
+    transform: scale(1.5);
+  }
+
+  75% {
+    color: rgb(18, 87, 235);
+  }
+
+  100% {
+    color: rgb(245, 17, 188);
+  }
 }
 
 /* Media Query: Large Smartphone (Vertical) */
