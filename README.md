@@ -1,5 +1,8 @@
 # Custom Countdown
 
+[See live](https://olena-ageyeva.github.io/countdown/)
+![Preview](./preview.gif)
+
 **Resources:**
 
 1. [Pixabay Stock Videos](https://pixabay.com/videos/)
