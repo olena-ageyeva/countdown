@@ -1,7 +1,7 @@
 # Custom Countdown
 
 [See live](https://olena-ageyeva.github.io/countdown/)
-![Preview](./preview.gif)
+![Preview](./preview.GIF)
 
 **Resources:**
 
